@@ -6,7 +6,8 @@ public class Main {
         String lastName = "Ivanov";
         System.out.println("Ф.И.О. сотрудника -- " + lastName + " " + firstName + " " + middleName);
 //task 2
-        String initials = "" + lastName.charAt(0) + "." + firstName.charAt(0) + "." + middleName.charAt(0) + ".";
+        String fullNameTaskTwo = " " + lastName + " " + firstName + " " + middleName + " ";
+        String initials = fullNameTaskTwo.toUpperCase();
         System.out.println("Данные Ф.И.О. сотрудника для заполнения отчета -- " + initials);
 //task 3
         String fullName = "Иванов Семён Семёнович";
@@ -15,6 +16,7 @@ public class Main {
 
         System.out.println("Оригинальная строка: " + fullName);
         System.out.println("Модифицированная строка: " + modifiedName);
+
 
     }
 }
